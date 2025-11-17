@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uy ishi Form Taglar</title>
+    <link rel="stylesheet" href="style14.css">
+</head>
+<body>
+
+<div class="form-box">
+
+
+    <form action="#" method="post">
+
+        <label>FIRST NAME</label><br>
+        <input type="text" name="firstname" maxlength="30"><br><br>
+
+        <label>LAST NAME</label><br>
+        <input type="text" name="lastname" maxlength="30">
+        <br><br>
+
+        <label>DATE OF BIRTH</label><br>
+        <input type="date">
+        <br><br>
+
+        <label>EMAIL ID</label><br>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>MOBILE NUMBER</label><br>
+        <input type="number" name="mobile"><br><br>
+
+        <label>GENDER</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>ADDRESS</label><br>
+        <textarea name="address" rows="4"></textarea>
+        <br><br>
+
+        <label>CITY</label><br>
+        <input type="text" name="city">
+        <br><br>
+
+        <label>PIN CODE</label><br>
+        <input type="number" name="pincode">
+        <br><br>
+
+        <label>STATE</label><br>
+        <input type="text" name="state">
+        <br><br>
+
+        <label>COUNTRY</label><br>
+        <input type="text" name="country" value="">
+        <br><br>
+
+        <label>HOBBIES</label><br>
+        <input type="checkbox" name="drawing"> Drawing
+        <input type="checkbox" name="singing"> Singing
+        <input type="checkbox" name="dancing"> Dancing
+        <input type="checkbox" name="sketching"> Sketching
+        <br><br>
+
+        Others: <input type="text" name="hobby_other"><br><br>
+
+        <label>QUALIFICATION</label>
+        <br><br>
+
+        <table border:="1" cellpadding="5">
+            <tr>
+                <th>Sl.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="board_10"></td>
+                <td><input type="text" name="percent_10"></td>
+                <td><input type="number" name="year_10"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="board_12"></td>
+                <td><input type="text" name="percent_12"></td>
+                <td><input type="number" name="year_12"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="board_grad"></td>
+                <td><input type="text" name="percent_grad"></td>
+                <td><input type="number" name="year_grad"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="board_master"></td>
+                <td><input type="text" name="percent_master"></td>
+                <td><input type="number" name="year_master"></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <label>COURSES APPLIED FOR</label><br>
+        <input type="radio" name="course" value="bca"> BCA
+        <input type="radio" name="course" value="bcom"> B.Com
+        <input type="radio" name="course" value="bsc"> B.Sc
+        <input type="radio" name="course" value="ba"> B.A
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</div>
+
+</body>
+</html>
